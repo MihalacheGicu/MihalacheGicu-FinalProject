@@ -36,12 +36,7 @@ Avem nevoie, de asemenea, de selenium webdriver-manager și o bibliotecă pentru
 
 • Pentru a genera si un raport.html :In terminal(venv): behave -f html -o name_report.html(name= putem adauga ce nume dorim).
    
-
-<<<<<<< HEAD
-Proiectul dezvoltat testeaza : cateva funcționalități principale ale paginii web: https://the-internet.herokuapp.com: home page, login page si secure page, utilizand dezvoltarea orientată către comportament :BDD((Behavior Driven Development)-Selenium, Behave Python framework si limbajul Gherkin pentru scrierea scenariilor. 
-=======
 Proiectul dezvoltat testeaza : funcționalități principale ale paginii web: https://the-internet.herokuapp.com: home page, login page si secure page(update -background, @smoke si Scenario outline) utilizand dezvoltarea orientată către comportament :BDD((Behavior Driven Development)-Selenium, POM (Page Object Model),Behave Python framework si limbajul Gherkin pentru scrierea scenariilor. 
->>>>>>> bbbfc9362cae0d6ce78670922648b7dafccbe879
 
 Testarea automată este importantă pentru că ne ajută la identificarea rapidă și eficientă a erorilor sau defectelor în software-ul dezvoltat. 
 
