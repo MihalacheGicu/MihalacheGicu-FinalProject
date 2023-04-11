@@ -45,6 +45,52 @@ Aceasta permite programatorilor să își valideze codul și să își asigure c
 Avantaje ale testării automate: Rapiditate, Eficiență, Fiabilitate.
 
 
+Hello!
+
+Here I have added the final project in 2 variants: archived and unarchived.
+
+Prerequisites for running the project:
+
+• Install Google Chrome
+
+• Install Pycharm Community Edition: https://www.jetbrains.com/pycharm/download
+
+• Install Python: https://www.python.org/downloads/
+
+Instructions for running the project:
+
+• Download the project to a location on your PC where the prerequisites have been installed.
+
+• Open the IDE (Pycharm)>>File>>Open>>choose the project from the location where it was downloaded. After the project is loaded in the IDE, select a Python interpreter.
+
+Instructions for running automated project tests:
+
+We need a Python library that implements Gherkin syntax: [behave]. We also need the selenium webdriver-manager and a library for generating reports [behave-html-formatter].
+
+• Open a terminal (venv) and install the libraries using pip install:
+
+pip install behave/python.exe -m pip install --upgrade pip (upgrade pip only if needed)
+
+pip install selenium
+
+pip install webdriver-manager
+
+pip install behave-html-formatter
+
+• After installing the libraries, execute the command in the terminal: behave to start the automated testing.
+
+• To generate an html report as well: In the terminal (venv): behave -f html -o name_report.html (name = we can add whatever name we want).
+
+The developed project tests the main functionalities of the web page: https://the-internet.herokuapp.com: home page, login page, and secure page (update - background, @smoke, and Scenario outline) using behavior-driven development: BDD (Behavior Driven Development)-Selenium, POM (Page Object Model), Behave Python framework, and the Gherkin language for writing scenarios.
+
+Automated testing is important because it helps us quickly and efficiently identify errors or defects in the developed software.
+
+This allows programmers to validate their code and ensure that all software functionalities are working as they should.
+
+Advantages of automated testing: Speed, Efficiency, Reliability.
+
+
+
 
 
 
